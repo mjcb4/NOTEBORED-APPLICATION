@@ -1,0 +1,127 @@
+/* AUTH FORMS */
+.auth-form {
+    background-color: var(--secondary-color);
+    border: dashed;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+
+    .auth-form h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        color: #333;
+    }
+
+    .auth-form input {
+        width: 80%;
+        padding: 12px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        transition: border-color 0.3s;
+    }
+
+
+        .auth-form input:focus {
+            border-color: #007bff;
+        }
+
+    .auth-form button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 20px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+        cursor: pointer;
+        border-radius: 50px;
+    }
+
+        .auth-form button:hover {
+            background-color: #0056b3;
+        }
+
+
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 12vh;
+    padding-top: 20PX;
+    background-color: var(--background-color);
+}
+    .header h1 {
+        color: var(--primary-color);
+        font-size: 4rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header h2 {
+        color: var(--secondary-color);
+        font-size: 4rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header h2:hover {
+        color: var(--text-color);
+    }
+
+    
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--background-color);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: var(--navbar-height);
+    padding-left: 80px;
+}
+
+    .navbar h2 {
+        font-size: 2rem;
+        color: var(--primary-color);
+    }    
+    
+    .navbar h3 {
+        font-size: 1.5rem;
+        color: var(--secondary-color);
+    }
+
+    .navbar h3:hover {
+        color: var(--text-color);
+    }
+
+
+/* FOOTER */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    height: var(--footer-height);
+}
+    
+    .footer h3 {
+        color: var(--primary-color);
+        margin-left: 10px;
+    }
+
+    .footer h4 {
+        color: var(--secondary-color);
+    }
+
+    .footer p {
+        color: var(--text-color);
+        margin-left: 10px;
+    }
